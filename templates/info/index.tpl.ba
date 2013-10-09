@@ -1,0 +1,13 @@
+{include file='header.tpl' section="info"}
+<script type="text/javascript" src="/js/box.js"></script>
+<div id="main-serch-container">
+	<div id="main-select-container">
+		<input id="main-serch" type="search"/>
+	</div>	
+</div>
+<div id="info-result-container">
+<section id="info-result">
+</section>
+</div>
+<div id="alert" style="display:none"><img alt="loding...." src="/image/loading.gif"></div>
+{include file='footer.tpl' section='info'}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta chrset="utf-8"/>
+  <script src="/js/jquery/jquery.js"></script>
+  <script>
+	function getTranslate(q){
+		url = "http://dict.cn/ws.php?utf8=true&q="+q;
+		$.get(url,
+			  function(){
+			  });
+		}
+	$(function(){
+		$("#qword").submit(function(){
+			getTranslate($("#q").val());
+			return false;
+		});
+	});
+  </script>
+</head>
+<body>
+  <form id="qword">
+	<fieldset>
+		<legend>输入单词</legend>
+		<label for="q">单词</label>
+		<input type="text" id="q"/>
+		<button type="submit">提交</button>
+	</fieldset>
+  </form>
+</body>
+</html>

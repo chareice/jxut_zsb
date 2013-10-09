@@ -1,0 +1,35 @@
+一、准备工作
+1、首先修改config.inc.php文件中的$config->APIKey和$config->SecretKey改成你自己的app的apikey和secret（如果没有，到这里来申请：http://app.renren.com/developers/newapp）
+2、然后修改example.php文件的$sessionkey和$accesstoken（调api接口，两者均可，所以有其中一个就可以了），改为用户的，连接网站和客户端通过oauth获得，站内应用在用户授权之后，iframe传进去的参数xn_sig_session_key就是用户的sessionkey
+
+二、访问
+然后通过浏览器访问example.php就可以，实现的功能如下：
+1、通过sessionkey获取指定用户的信息
+2、通过accesstoken分页获取当前用户的好友信息列表
+3、上传网络图片和本地图片
+
+三、FAQ（有了问题看这里）
+有些接口需要用户授予某些扩展授权之后才能调用成功，如上面的上传图片接口
+问：如何添加API接口所需的扩展授权呢？ 
+答：用户授权的时候，在参数scope中指定，详情请看：http://wiki.dev.renren.com/wiki/%E8%8E%B7%E5%8F%96Authorization_Code
+
+问：这里只是提供了三个demo作为例子，自己如何添加自己需要的接口呢？
+答：按照example.php的格式，修改一下参数$params和api名字就可以，参数$params是一维数组，除了api_key,method,v,format,callid之外的其他参数，api_key,method,v,format,callid这些参数已经封装在请求中了，不需要单独传
+
+$params = array('page'=>'1','count'=>'2','access_token'=>$accesstoken);
+$res = $rrObj->rr_post_curl('friends.getFriends', $params);//curl函数发送请求
+print_r($res);//输出结果
+
+问：现在除了上传照片的接口是fopen函数实现的，其他api的实现都是基于curl函数发的post请求调人人api服务器，如果服务器无法支持curl函数怎么办？
+答：如果不支持curl函数，调api的时候可以把rr_post_curl改为rr_post_fopen，参数都是一样的，rr_post_fopen是基于fopen函数发的post请求，fopen函数一般服务器都支持
+
+问：如果不是utf8编码的环境，而是其他编码的怎么办？
+答：在example.php中调接口前执行：
+$rrObj->setEncode("GB2312");//传递的参数默认的是utf-8编码，如果是utf-8的环境可以不用设
+上面是把调api的参数进行了utf8转换，并将返回信息由utf8转换成设定的编码
+
+四、升级点：
+1、封装了上传照片等api调用
+2、增加了对curl函数不支持环境的兼容方法
+3、增加编码设定，兼容各种编码的环境
+3、返回信息的stdclass object都转换成数组

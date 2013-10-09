@@ -1,0 +1,2380 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="alert.files/filelist.xml">
+<link rel=Edit-Time-Data href="alert.files/editdata.mso">
+<link rel=OLE-Object-Data href="alert.files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Administrator</o:Author>
+  <o:LastAuthor>TCL</o:LastAuthor>
+  <o:LastPrinted>2012-07-30T08:05:55Z</o:LastPrinted>
+  <o:Created>2012-07-30T15:58:40Z</o:Created>
+  <o:LastSaved>2012-07-31T06:30:05Z</o:LastSaved>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+ <o:CustomDocumentProperties>
+  <o:KSOProductBuildVer dt:dt="string">2052-8.1.0.2998</o:KSOProductBuildVer>
+ </o:CustomDocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:常规;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-family:"Courier New", monospace;
+	mso-font-charset:0;
+	text-align:center;
+	white-space:normal;}
+.xl25
+	{mso-style-parent:style0;
+	font-family:"Courier New", monospace;
+	mso-font-charset:0;
+	text-align:left;
+	white-space:normal;}
+.xl26
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	white-space:normal;}
+.xl27
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border:1.0pt solid windowtext;
+	white-space:normal;}
+.xl28
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl29
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl30
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl31
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl32
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl33
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl34
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:left;
+	white-space:normal;}
+.xl35
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border:1.0pt solid black;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl36
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:1.0pt solid black;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl37
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:left;
+	border-top:1.0pt solid black;
+	border-right:none;
+	border-bottom:1.0pt solid black;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl38
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl39
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid black;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl40
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl41
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl42
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl43
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl44
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:left;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl45
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl46
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:left;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl47
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	mso-number-format:"m\0022月\0022d\0022日\0022";
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl48
+	{mso-style-parent:style0;
+	font-family:"Courier New", monospace;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl49
+	{mso-style-parent:style0;
+	text-align:center;
+	background:silver;
+	mso-pattern:auto none;}
+.xl50
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl51
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl52
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl53
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl54
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:1.0pt solid black;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl55
+	{mso-style-parent:style0;
+	font-family:仿宋_GB2312, monospace;
+	mso-font-charset:134;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>540</x:DefaultRowHeight>
+     <x:Unsynced/>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:HorizontalResolution>200</x:HorizontalResolution>
+      <x:VerticalResolution>200</x:VerticalResolution>
+     </x:Print>
+     <x:PageBreakZoom>100</x:PageBreakZoom>
+     <x:Selected/>
+     <x:TopRowVisible>120</x:TopRowVisible>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>121</x:ActiveRow>
+       <x:ActiveCol>3</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>270</x:DefaultRowHeight>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:HorizontalResolution>200</x:HorizontalResolution>
+      <x:VerticalResolution>200</x:VerticalResolution>
+     </x:Print>
+     <x:PageBreakZoom>100</x:PageBreakZoom>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>270</x:DefaultRowHeight>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:HorizontalResolution>200</x:HorizontalResolution>
+      <x:VerticalResolution>200</x:VerticalResolution>
+     </x:Print>
+     <x:PageBreakZoom>100</x:PageBreakZoom>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>10185</x:WindowHeight>
+  <x:WindowWidth>21600</x:WindowWidth>
+  <x:WindowTopX>120</x:WindowTopX>
+  <x:WindowTopY>135</x:WindowTopY>
+  <x:Calculation>ManualCalculation</x:Calculation>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=1047 style='border-collapse:
+ collapse;table-layout:fixed;width:785pt'>
+ <col class=xl24 width=73 style='mso-width-source:userset;mso-width-alt:2336;
+ width:55pt'>
+ <col class=xl24 width=171 style='mso-width-source:userset;mso-width-alt:5472;
+ width:128pt'>
+ <col class=xl24 width=87 style='mso-width-source:userset;mso-width-alt:2784;
+ width:65pt'>
+ <col class=xl24 width=147 style='mso-width-source:userset;mso-width-alt:4704;
+ width:110pt'>
+ <col class=xl24 width=160 style='mso-width-source:userset;mso-width-alt:5120;
+ width:120pt'>
+ <col class=xl25 width=200 style='mso-width-source:userset;mso-width-alt:6400;
+ width:150pt'>
+ <col class=xl24 width=209 style='mso-width-source:userset;mso-width-alt:6688;
+ width:157pt'>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl27 width=73 style='height:27.0pt;width:55pt'>省份</td>
+  <td class=xl28 width=171 style='width:128pt'>层次、科类</td>
+  <td class=xl28 width=87 style='width:65pt'>录取进程</td>
+  <td class=xl28 width=147 style='width:110pt'>志愿填报相关信息</td>
+  <td class=xl28 width=160 style='width:120pt'>是否有征集</td>
+  <td class=xl28 width=200 style='width:150pt'>投档最低分数线</td>
+  <td class=xl28 width=209 style='width:157pt'>备注</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=11 height=396 class=xl52 width=73 style='border-bottom:1.0pt solid black;
+  height:297.0pt;border-top:none;width:55pt'>江西</td>
+  <td class=xl29 width=171 style='width:128pt'>本科艺术类（二本）</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl29 width=171 style='height:27.0pt;width:128pt'>本科文史类（二本）</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>第三次投档文史最低483（7月30日）<br>
+    文史最低504，降19分</td>
+  <td class=xl30 width=209 style='width:157pt'>统招待定仍可办理</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl29 width=171 style='height:27.0pt;width:128pt'>本科理工类（二本）</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>第三次投档理工最低446（7月30日）<br>
+    理工最低467，降19分</td>
+  <td class=xl30 width=209 style='width:157pt'>统招待定仍可办理</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl29 width=171 style='height:27.0pt;width:128pt'>少数民族预科（二本）</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl29 width=171 style='height:27.0pt;width:128pt'>本科艺术类（三本）</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>统招待定仍可办理</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl29 width=171 style='height:27.0pt;width:128pt'>本科文史类（三本）</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>统招待定仍可办理</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl29 width=171 style='height:27.0pt;width:128pt'>本科理工类（三本）</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>统招待定仍可办理</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl32 width=171 style='height:27.0pt;width:128pt'>少数民族预科（三本）</td>
+  <td class=xl33 width=87 style='width:65pt'>　</td>
+  <td class=xl33 width=147 style='width:110pt'>　</td>
+  <td class=xl33 width=160 style='width:120pt'>　</td>
+  <td class=xl34></td>
+  <td class=xl29 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl35 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl36 width=87 style='width:65pt'>　</td>
+  <td class=xl36 width=147 style='width:110pt'>　</td>
+  <td class=xl36 width=160 style='width:120pt'>　</td>
+  <td class=xl37 width=200 style='width:150pt'>　</td>
+  <td class=xl38 width=209 style='width:157pt'>统招待定仍可办理</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl39 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl40 width=87 style='width:65pt'>　</td>
+  <td class=xl40 width=147 style='width:110pt'>　</td>
+  <td class=xl40 width=160 style='width:120pt'>　</td>
+  <td class=xl41 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>统招待定仍可办理</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl39 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl40 width=87 style='width:65pt'>　</td>
+  <td class=xl40 width=147 style='width:110pt'>　</td>
+  <td class=xl40 width=160 style='width:120pt'>　</td>
+  <td class=xl41 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>统招待定仍可办理</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=6 height=216 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:162.0pt;border-top:none;width:55pt'>北京<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl28 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=6 height=216 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:162.0pt;border-top:none;width:55pt'>上海<br>
+    （二批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl26></td>
+  <td class=xl29 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl44 width=200 style='width:150pt'>文史最低379分<br>
+    征集志愿：文史最低391分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低342分<br>
+    征集志愿：理工最低350分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>填报志愿代码：929</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>填报志愿代码：929</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>安徽<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>填报：本文理（3118）；专文理（4459）</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>填报：本文理（3118）；专文理（4459）</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>填报：本文理（3118）；专文理（4459）</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>填报：本文理（3118）；专文理（4459）</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>重庆<br>
+    （三批、专科一批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>文史最低476分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低447分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>福建<br>
+    （二批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>18日征集最低美术文485分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>文史最低491</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低473</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=6 height=216 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:162.0pt;border-top:none;width:55pt'>广东<br>
+    （二本B）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>广东美术类（统考）21名计划8月1日开始征集；院校代码：10846</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl26></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl45 width=200 style='width:150pt'>文史最低529分（7月28日）</td>
+  <td class=xl28 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl28 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低511分（7月28日）</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=9 height=324 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:243.0pt;border-top:none;width:55pt'>甘肃<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>志愿填报时间：7月31日20:00至8月2日20:00，学校代码0813</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>志愿填报时间：7月31日20:00至8月2日20:00，学校代码0813</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>志愿填报的时间:7月31日20时至8月2日20时，院校代码：0813，招生计划人数：5名，可多鼓励意向考生填报</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科三校生</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>志愿填报时间：7月31日20:00至8月2日20:00，学校代码0813</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>志愿填报时间：7月31日20:00至8月2日20:00，学校代码0813</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>志愿填报时间：7月31日20:00至8月2日20:00，学校代码0813</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>志愿填报时间：7月31日20:00至8月2日20:00，学校代码0813</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科三校生</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>志愿填报时间：7月31日20:00至8月2日20:00，学校代码0813</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>广西<br>
+    （二批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>文史最低483分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低459分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>贵州<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>河南<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>湖北<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>最低专业成绩191分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl26></td>
+  <td class=xl29 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>文史最低487（7月29日）</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl28 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低460（7月29日）</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>河北<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>文史最低425分（7月29日投档）</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低分376分（7月29日投档）</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl29 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl46 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>海南<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>黑龙江<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>湖南<br>
+    （二批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>文史最低523分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低451分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>吉林<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=6 height=216 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:162.0pt;border-top:none;width:55pt'>江苏<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>辽宁<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>31日辽宁本科有征集文史1名，鼓励文史454分以上填报</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>31日辽宁本科有征集文史1名，鼓励文史454分以上填报</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl47 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>填报志愿：7月31日8：00至17:00，代码0651，计划人数文科11名、理科10名。鼓励文史374分、理工308分以上少数民族考生填报。</td>
+  <td class=xl48 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>内蒙古<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>文史最低367分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低314分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>宁夏<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>31日投档</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>31日投档</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>青海<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>四川<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>文史最低428分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理工最低432分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl49>录取结束</td>
+  <td class=xl38 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>最低专业分：206分<br>
+    二志愿：音乐专业最低302分，舞蹈专业最低268分</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl50 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr class=xl24 height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=6 height=216 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:162.0pt;border-top:none;width:55pt'>山东<br>
+    （二批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl26></td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl50 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=6 height=216 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:162.0pt;border-top:none;width:55pt'>陕西<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>填报代码：4415</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>填报代码：4415</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>填报代码：4415</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>填报代码：4415</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>山西<br>
+    （二本C类）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=6 height=216 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:162.0pt;border-top:none;width:55pt'>天津<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>新疆<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>美术（统考）：最低196分<br>
+    音乐（校考）：最低148分<br>
+    音乐学（空中乘务方向、校考）：最低139分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>西藏<br>
+    （二批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=7 height=252 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:189.0pt;border-top:none;width:55pt'>云南<br>
+    （三批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl29 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>文科430</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>阅档中</td>
+  <td class=xl28 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>理科370</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>少数民族预科</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td rowspan=6 height=216 class=xl54 width=73 style='border-bottom:1.0pt solid black;
+  height:162.0pt;border-top:none;width:55pt'>浙江<br>
+    （二批）</td>
+  <td class=xl30 width=171 style='width:128pt'>本科艺术类</td>
+  <td class=xl30 width=87 style='width:65pt'>录取结束</td>
+  <td class=xl30 width=147 style='width:110pt'>　</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>20日征集：美术文综合最低：512分，美术理综合最低：513分</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科文史类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>31日投档</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl30 width=171 style='height:27.0pt;width:128pt'>本科理工类</td>
+  <td class=xl30 width=87 style='width:65pt'>　</td>
+  <td class=xl30 width=147 style='width:110pt'>31日投档</td>
+  <td class=xl30 width=160 style='width:120pt'>　</td>
+  <td class=xl31 width=200 style='width:150pt'>　</td>
+  <td class=xl30 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科艺术类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科文史类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'><span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl42 width=171 style='height:27.0pt;width:128pt'>专科理工类</td>
+  <td class=xl42 width=87 style='width:65pt'>　</td>
+  <td class=xl42 width=147 style='width:110pt'>　</td>
+  <td class=xl42 width=160 style='width:120pt'>　</td>
+  <td class=xl43 width=200 style='width:150pt'>　</td>
+  <td class=xl42 width=209 style='width:157pt'>　</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=73 style='width:55pt'></td>
+  <td width=171 style='width:128pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=147 style='width:110pt'></td>
+  <td width=160 style='width:120pt'></td>
+  <td width=200 style='width:150pt'></td>
+  <td width=209 style='width:157pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

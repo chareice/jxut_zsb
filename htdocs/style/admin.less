@@ -1,0 +1,184 @@
+@import "framework.less";
+.clear{
+	&:before{
+		display: table;
+  		line-height: 0;
+  		content: "";
+	}
+	&:after{
+		display: table;
+  		line-height: 0;
+  		content: "";
+  		clear: both;
+	}
+}
+@bgColor:#16499a;
+@blockColor:#328ff5;
+@blockHover:rgba(96,167,247,0.5);
+@pop:#1b58b8;
+body{
+	font-family: "微软雅黑";
+	background:@bgColor;
+	height: 100%;
+	position: relative;
+}
+.col{
+	float: left;
+	margin-left: 2%;
+	margin-top: -10px;
+	width: 250px;
+	height: 390px;
+	.clear();
+
+}
+.block1,.block2{
+	color: #fff;
+	&:hover{
+		outline: 4px @blockHover solid;
+	}
+}
+#content{
+	.clear();
+	height: 380px;
+}
+.line{
+	margin-left: -10px;
+	margin-top: 10px;
+	.clear();
+}
+.block1{
+	margin-left: 10px;
+	width: 120px;
+	height: 120px;
+	float: left;
+	background: @blockColor;
+}
+.block2{
+	margin-left: 10px;
+	width: 250px;
+	height: 120px;
+	float: left;
+	background: @blockColor;
+}
+#header{
+	font-size: 50px;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	color: #fff;
+}
+#content_warpper{
+	margin-left: 10%;
+}
+#content{
+	margin-left: -2%;
+	margin-top: 8%;
+}
+#popwindow-container{
+	overflow: auto;
+	width: 100%;
+	background:rgba(255,255,255,0.8);
+	display: none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+#popwindow{
+	overflow: auto;
+	width: 100%;
+	margin-top: 5%;
+	background: @pop;
+}
+#popcontent{
+	width: 80%;
+	margin: 0 auto;
+	header{
+		font-size: 30px;
+		color: #fff;
+	}
+	table{
+		text-align: center;
+		td{
+			padding: 5px 5px 5px 0px;
+		}
+	}
+}
+@-webkit-keyframes create{
+	0%{
+		width: 225px;
+	}
+	50%{
+		width: 270px;
+	}
+	100%{
+		width: 300px;
+	}
+}
+.list{
+	float: left;
+	color:#fff;
+}
+.create{
+	float: left;
+	margin-left: 10%;
+}
+form{
+	margin-top: -10px;
+	p{
+		&:nth-last-child(1){
+			position: relative;
+			left: 190px;
+		}
+		margin-top: 10px;
+		label{
+			color: #fff;
+			width: 80px;
+			display: inline-block;
+			line-height: 20px;
+		}
+		input{
+			&:focus{
+				-webkit-animation-name:create;
+				-webkit-animation-duration:.5s;
+				-webkit-animation-timing-function:linear;
+				width: 300px;
+			}
+			width: 225px;
+			font-size: 20px;
+			border: none;
+			height: 40px;
+			padding-left: 5px;
+		}
+		button{
+			width: 60px;
+			height: 30px;
+			border: none;
+			&:hover{
+				background: #ccc;
+			}
+			&:active{
+				background: #555;
+				color: #fff;
+			}
+		}
+	}
+}
+#bottom_left{
+	.create{
+		padding-top: 10px;
+		border-top: 1px dashed #ccc;
+		margin-left: 0;
+	}
+}
+#bottom_left_content{
+	color: #000;
+}
+#edui1{
+	color: #000;
+}
+.edui-box .edui-arrow .edui-default{
+	color: #000;
+}

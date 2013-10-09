@@ -1,0 +1,41 @@
+body{
+	text-align:center;
+}
+table#result{
+	border-collapse: collapse;
+	border:solid 1px red;
+	align:center;
+}
+table#result tr td{
+	border:solid 1px red;
+}
+div#result table{
+	font-size:0.8em;
+	border-collapse: collapse;
+	text-align:center;
+	background-color:#CCC;
+}
+div#result table td,div#result table th{
+	padding:1em;
+	border:solid 1px #FFF;
+}
+div#ser{
+	padding:10px;
+	position:fixed;
+	bottom:50%;
+	right:2%;
+	background-color:#CCC;
+}
+div#ser input#q{
+
+}
+div#ser input#q:focus{
+	background-color:#145;
+	color:#CCC;
+}
+table#person{
+	right:1em;
+	border:solid 1px #CCC;
+	position:fixed;
+	top:1em;
+}

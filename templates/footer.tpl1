@@ -1,0 +1,17 @@
+</div></div>
+</section>
+<div id="bottombar">
+	<div class="bottomlefts">
+			{foreach from=$bottomlefts item=bottomleft}
+			<div class="bottomleft">
+				<div class="name_container">
+					<div class="name">{$bottomleft.name}</div>
+					<div class="content">{$bottomleft.content}</div>
+				</div>
+			</div>
+			{/foreach}
+	</div>	
+	<div id="authinfo"><a href="/author">Create By Chareice</a></div>
+</div>
+</body>
+</html>

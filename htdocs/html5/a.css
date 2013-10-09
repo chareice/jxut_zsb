@@ -1,0 +1,21 @@
+header,nav,article,footer{
+	border:solid 1px #666;
+	padding:5px
+	}
+header{
+	width:500px
+	}
+nav{
+	float:left;
+	width:60px;
+	height:100px;
+	}
+article{
+	float:left;
+	width:428px;
+	height:100px;
+	}
+footer{
+	clear:both;
+	width:500px;
+	}

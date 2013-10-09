@@ -1,0 +1,4 @@
+.tmb/
+data/tmp/templates_c/*.tpl.php
+data/logs/*.log
+
