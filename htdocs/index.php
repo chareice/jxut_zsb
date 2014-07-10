@@ -1,10 +1,11 @@
 <?php
-    set_include_path("/www/include");
+    set_include_path("/www/jxut_zsb/include");
 
     require "block.php";
     if(!isallow()){
-        die("access denied");
-    }//ip访问限制，白名单文件为 ../allowip.json
+        die("<br/>access denied</br><a href=\"//weibo.com/chareice\">@Chareice</a>");
+    }
+    //ip访问限制，白名单文件为 ../allowip.json
 
     require_once "../include/Zend/Loader/Autoloader.php";
 	Zend_Loader_Autoloader::getInstance()->setFallbackAutoloader(true);
